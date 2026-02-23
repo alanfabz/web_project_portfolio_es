@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio | Mariana Hernández</title>
+    <meta
+      name="description"
+      content="Portafolio de la desarrolladora web junior Mariana Hernández."
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="hero">
+            <section class="hero__text" aria-labelledby="hero-title">
+              <h1 id="hero-title" class="hero__title">
+                <span class="hero__title-line">Mariana</span>
+                <span class="hero__title-line">Hernández</span>
+              </h1>
+              <p class="hero__subtitle">
+                Desarrolladora Full-Stack Junior · TypeScript, React, Node.js
+              </p>
+              <p class="hero__description">
+                Desarrolladora web junior con experiencia práctica creando
+                interfaces limpias y responsivas con HTML, CSS, JavaScript y
+                React, así como implementando lógica básica de back-end. Ha
+                trabajado en proyectos formativos que siguen procesos reales de
+                desarrollo, usando Git, GitHub y Figma. Disfruta colaborar en
+                equipo, mantener un código claro y resolver problemas de forma
+                estructurada. Motivada por seguir aprendiendo, asumir nuevos
+                retos y aprovechar cada oportunidad para crecer como
+                desarrolladora.
+              </p>
+              <nav class="hero__links" aria-label="Enlaces principales">
+                <a class="button button--primary" href="#" target="_blank"
+                  >Descargar CV</a
+                >
+                <a
+                  class="button button--ghost"
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Enlace a GitHub</a
+                >
+                <a class="button button--ghost" href="#contacto">Hablemos</a>
+              </nav>
+            </section>
+            <figure class="hero__photo">
+              <img
+                src="images/profile-photo.jpg"
+                alt="Fotografía de Mariana Hernández"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="section section--skills" aria-labelledby="skills-title">
+          <div class="container">
+            <h2 id="skills-title" class="section__title">
+              Habilidades y herramientas
+            </h2>
+            <ul class="skills" aria-label="Tecnologías principales">
+              <li class="skills__item">
+                <span
+                  class="skills__icon skills__icon--html"
+                  aria-hidden="true"
+                ></span>
+                <span class="skills__label">HTML</span>
+              </li>
+              <li class="skills__item">
+                <span
+                  class="skills__icon skills__icon--css"
+                  aria-hidden="true"
+                ></span>
+                <span class="skills__label">CSS</span>
+              </li>
+              <li class="skills__item">
+                <span
+                  class="skills__icon skills__icon--js"
+                  aria-hidden="true"
+                ></span>
+                <span class="skills__label">JavaScript</span>
+              </li>
+              <li class="skills__item">
+                <span
+                  class="skills__icon skills__icon--git"
+                  aria-hidden="true"
+                ></span>
+                <span class="skills__label">Git</span>
+              </li>
+              <li class="skills__item">
+                <span
+                  class="skills__icon skills__icon--github"
+                  aria-hidden="true"
+                ></span>
+                <span class="skills__label">GitHub</span>
+              </li>
+              <li class="skills__item">
+                <span
+                  class="skills__icon skills__icon--openai"
+                  aria-hidden="true"
+                ></span>
+                <span class="skills__label">IA generativa</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          class="section section--projects"
+          aria-labelledby="projects-title"
+        >
+          <div class="container">
+            <h2 id="projects-title" class="section__title">
+              Proyectos destacados
+            </h2>
+            <div class="projects">
+              <article class="project-card">
+                <a
+                  class="project-card__media-link"
+                  href="#"
+                  target="_blank"
+                  aria-label="Abrir demo en vivo del proyecto Cafetería"
+                >
+                  <div class="project-card__media">
+                    <img
+                      src="images/project-cafe.jpg"
+                      alt="Landing page de la cafetería Triple Peaks en tonos naranja"
+                      loading="lazy"
+                    />
+                    <div class="project-card__overlay" aria-hidden="true">
+                      <span class="project-card__tag">HTML · CSS</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">
+                    Página web de una cafetería
+                  </h3>
+                  <p class="project-card__description">
+                    Desarrollo de una landing page responsiva para una cafetería
+                    siguiendo un brief de diseño. Incluye estructura semántica,
+                    maquetación con Flexbox y creación de un formulario de
+                    contacto funcional.
+                  </p>
+                  <ul class="project-card__links">
+                    <li>
+                      <a class="project-card__link" href="#" target="_blank"
+                        >Demo en vivo</a
+                      >
+                    </li>
+                    <li>
+                      <a class="project-card__link" href="#" target="_blank"
+                        >GitHub</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <a
+                  class="project-card__media-link"
+                  href="#"
+                  target="_blank"
+                  aria-label="Abrir demo en vivo del proyecto personal"
+                >
+                  <div class="project-card__media project-card__media--accent">
+                    <img
+                      src="images/project-personal.jpg"
+                      alt="Tarjeta púrpura con un icono de ventana de código en píxeles"
+                      loading="lazy"
+                    />
+                    <div class="project-card__overlay" aria-hidden="true">
+                      <span class="project-card__tag">JavaScript · React</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="project-card__body">
+                  <h3 class="project-card__title">Mi proyecto</h3>
+                  <p class="project-card__description">
+                    Aplicación web creada para consolidar conocimientos de
+                    JavaScript moderno y React. Desarrollada con componentes
+                    reutilizables, manejo de estado y atención a la experiencia
+                    de usuario.
+                  </p>
+                  <ul class="project-card__links">
+                    <li>
+                      <a class="project-card__link" href="#" target="_blank"
+                        >Demo en vivo</a
+                      >
+                    </li>
+                    <li>
+                      <a class="project-card__link" href="#" target="_blank"
+                        >GitHub</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contacto">
+        <div class="container footer__content">
+          <h2 class="footer__title">Contacto</h2>
+          <a class="footer__email" href="mailto:student@tripleten.com"
+            >student@tripleten.com</a
+          >
+          <ul class="footer__social" aria-label="Redes sociales">
+            <li>
+              <a
+                class="footer__social-link footer__social-link--facebook"
+                href="#"
+                target="_blank"
+                aria-label="Perfil de Facebook"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__social-link footer__social-link--instagram"
+                href="#"
+                target="_blank"
+                aria-label="Perfil de Instagram"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__social-link footer__social-link--linkedin"
+                href="#"
+                target="_blank"
+                aria-label="Perfil de LinkedIn"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer__social-link footer__social-link--x"
+                href="#"
+                target="_blank"
+                aria-label="Perfil de X"
+              >
+                X
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
